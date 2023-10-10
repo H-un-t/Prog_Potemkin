@@ -6,3 +6,4 @@ if z*x < 0 or z*c < 0 or x*c < 0 or x*z < 0 or z*c < 0 or c*x < 0:
     print("<ИСТИНА>")
 else:
     print("<ЛОЖЬ>")
+    #
