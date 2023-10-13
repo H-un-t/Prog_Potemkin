@@ -11,4 +11,4 @@ while i == 0:
     print("<ЛОЖЬ>")
   i = 1
  except ValueError:
-    print("нужно ввести число")
+    print("Нужно ввести число")
