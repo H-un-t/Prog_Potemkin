@@ -14,3 +14,4 @@ while i == 0:
     print(f'число разложились по убыванию: {B},{A}')
   except ValueError:
     print("Нужно ввести число")
+
