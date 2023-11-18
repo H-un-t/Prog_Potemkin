@@ -15,7 +15,7 @@ while True:
         for i in range(1, N+1):
             F *= 2*i*(2*N+1)
             if i % 2 == 1:
-                R -= X ** (2*i) / F
+                R -= X ** (2 * i) / F
             else:
                 R += X ** (2 * i) / F
         print(f"Значение  выражение:{R}")
