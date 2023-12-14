@@ -7,7 +7,7 @@ from random import randint
 
 def arbuz_228():
     for i in range(1, 41):
-        f = randint(-10000, 100000)
+        f = randint(-10000, 10000)
         print(f' номер {i}: число {f} ')
 
 
