@@ -11,6 +11,7 @@ country_1 = {'Toyota', 'Honda', 'Nissan'}
 country_2 = {'Toyota', 'Honda', 'Infinity'}
 country_3 = {'Toyota', 'Nissan', 'Suzuki'}
 anticar = set()
+
 for i in cars:
     if i not in (country_1 | country_2 | country_3):
         anticar.add(i)
